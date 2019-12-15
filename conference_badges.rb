@@ -1,9 +1,9 @@
-#badge_maker
+#badge_maker_method
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-#batch_badge_creator
+
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(array)
   array.map do |name|
@@ -11,7 +11,7 @@ def batch_badge_creator(array)
   end
 end
 
-#assign_rooms
+#assign_roomsr_method
 def assign_rooms(array1)
 	array1.each_with_index.map do |name, index| 
 		"Hello #{name}! You'll be assigned to room #{index + 1}"
