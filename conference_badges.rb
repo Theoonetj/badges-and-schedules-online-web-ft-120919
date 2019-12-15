@@ -29,4 +29,4 @@ def printer(speakers)
     end
 end
 
-printer(guests)
+printer(speakers)
