@@ -14,7 +14,7 @@ end
 #assign_roomsr_method
 def assign_rooms(array1)
 	array1.each_with_index.map do |name, index| 
-		"Hello #{name}! You'll be assigned to room #{index + 1}"
+	return	"Hello #{name}! You'll be assigned to room #{index + 1}"
 	end
 end
 
